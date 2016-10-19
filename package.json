@@ -1,0 +1,14 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "open weather api used for fcc project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "vijayabharathib",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
