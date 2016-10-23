@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="scripts/main.js"></script>
+<link rel="stylesheet" href="styles/main.css" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
+</head>
+%body
+	%section.content
+	  %h2.location
+	    Starting from Chennai...
+	  %section.heat
+	    %div.icon
+	    %h2
+	      %i.fa.fw.fa-refresh.get-weather
+	      %span.temperature
+	      %span.unit
+	    %div.switch
+	      %span &deg;C
+	      %i.fa.fw.fa-toggle-off.toggle
+	      %span &deg;F
+	    %p#progress
+	  %ul.status.display-none
+	    %li.weather
+	    %li.wind
+	    %li#progress-old
+	    %li#data
+	  %footer
+	    %p
+	      %span Powered by&nbsp;
+	      %a{href: "https://openweathermap.org/api"} OpenWeatherMap API.
+</html>

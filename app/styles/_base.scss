@@ -1,0 +1,21 @@
+body {
+  padding-top: 30px;
+  background-color: #ccc;
+  &.day{
+    background-color: #69b;
+    color: #eef6fb;
+  }
+
+  &.night{
+    background-color: #002;
+    color: lightblue;
+  }
+  transition: background-color 3000ms ease;
+}
+
+a{
+  color: #777;
+  &:hover{
+    text-decoration:none;
+  }
+}
