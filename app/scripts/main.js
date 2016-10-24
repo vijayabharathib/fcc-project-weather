@@ -1,7 +1,7 @@
-var apiURLOriginal="http://api.openweathermap.org/data/2.5/weather?lat=13&lon=80&appid=0f92d0a980ae6e7fec3a210ee045a359";
+var apiURLOriginal="https://api.openweathermap.org/data/2.5/weather?lat=13&lon=80&appid=0f92d0a980ae6e7fec3a210ee045a359";
 var apiURL ="http://api.openweathermap.org/data/2.5/weather?units=metric&";
 var apiKey="0f92d0a980ae6e7fec3a210ee045a359";
-var iconURL="http://openweathermap.org/img/w/";
+var iconURL="https://openweathermap.org/img/w/";
 var locationAvailable=false;
 var coordinates={lat: "",lon:""};
 var debug=false; //no logs if false! dev mode switch.
